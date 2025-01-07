@@ -27,6 +27,11 @@ classifiers=[
 
 [tool.poetry.dependencies]
 python = "^3.12"
+httpx = "^0.28.1"
+backoff = "^2.2.1"
+loguru = "^0.7.3"
+pydantic = "^2.10.4"
+pydantic-settings = "^2.7.1"
 
 [tool.poetry.dev-dependencies]
 
